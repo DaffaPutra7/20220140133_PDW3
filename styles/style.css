@@ -1,24 +1,53 @@
+/* Gaya untuk elemen body */
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* Menyusun konten ke tengah */
+    min-height: 100vh;
     margin: 0;
     background: url('https://i0.wp.com/www.escapemanila.com/wp-content/uploads/2019/02/borobudur-temple.jpg?fit=2000%2C1333&ssl=1') center/cover;
     backdrop-filter: blur(10px);
     opacity: 0.9;
 }
 
+
+/* Gaya untuk container konten */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Menyusun konten ke tengah */
+    padding-top: 20px;
+    /* Menambah jarak atas untuk memisahkan konten dari atas */
+}
+
+
+/* Gaya untuk konten */
+
+.content {
+    display: flex;
+}
+
+
+/* Gaya untuk kartu */
+
 .card {
     width: 300px;
     padding: 20px;
-    background-color: #fffcfc9d;
+    background-color: #ffffff9d;
     border: 0.5px solid black;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin-right: 20px;
+    /* Menambah jarak kanan untuk memisahkan kartu dari formulir login */
     overflow: hidden;
 }
+
+
+/* Gaya untuk gambar di dalam kartu */
 
 .card img {
     width: 100%;
@@ -26,20 +55,85 @@ body {
     display: block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 4px 8px rgb(41, 41, 41), 4px 0 8px rgb(41, 41, 41);
-    /* Tambahkan ini untuk bayangan di bawah dan di kanan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-content {
+
+/* Gaya untuk formulir login */
+
+.login {
+    width: 300px;
+    height: 200px;
     padding: 20px;
+    background-color: #ffffff9d;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-content h3 {
+
+/* Gaya untuk teks "Login" */
+
+.login h1 {
     margin-top: 0;
     font-size: 24px;
-    color: #333;
+    color: #000000;
 }
 
-.card-content p {
-    color: #666;
+
+/* Gaya untuk formulir di dalam login */
+
+.login form {
+    margin-bottom: 0;
+}
+
+
+/* Gaya untuk label di dalam formulir */
+
+.login form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Gaya untuk input di dalam formulir */
+
+.login form input {
+    width: calc(100% - 12px);
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+
+/* Gaya untuk tombol di dalam formulir */
+
+.login form button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Efek hover pada tombol */
+
+.login form button:hover {
+    background-color: #007bff;
+}
+
+
+/* Gaya untuk elemen waktu */
+
+.waktu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
 }

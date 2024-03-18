@@ -5,24 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan 3</title>
+    <title>JavaScript</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<!-- command dibagian head digunakan untuk menyimpan informasi yang tidak ditampilkan secara langusng kepada user, seperti karakter set, pengaturan tampilan, dan stylesheet. -->
-
 <body>
-    <div class="card">
-        <img src="assets/borobudur-temple.webp" alt="Ini adalah Gmabar Candi Borobudur">
-        <div class="text">
-            <h2>Candi Borobudur</h2>
-            <p>Candi Borobudur (Jawa: ꦕꦟ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, translit. Candhi Båråbudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah
-                barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi
-                atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.</p>
+    <!-- Elemen untuk menampilkan waktu -->
+    <div id="waktu" class="waktu"></div>
+
+    <!-- Container untuk konten halaman -->
+    <div class="container">
+        <!-- Konten utama -->
+        <div class="content">
+            <!-- Card untuk informasi tentang Candi Borobudur -->
+            <div class="card">
+                <!-- Gambar Candi Borobudur -->
+                <img src="assets/borobudur-temple.webp" alt="Ini adalah Gambar Candi Borobudur" style="max-width: 100%; height: auto;">
+                <!-- Informasi tentang Candi Borobudur -->
+                <div class="text">
+                    <h2>Candi Borobudur</h2>
+                    <p>Candi Borobudur (Jawa: ꦕꦟ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, translit. Candhi Båråbudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km
+                        di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur
+                        adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.</p>
+                </div>
+            </div>
+
+            <!-- Form login -->
+            <div class="login">
+                <h1>Login</h1>
+                <form>
+                    <!-- Label dan input untuk username -->
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Username">
+
+                    <!-- Label dan input untuk password -->
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password">
+
+                    <!-- Tombol login -->
+                    <button onclick="login()">Login</button>
+                </form>
+            </div>
         </div>
     </div>
-</body>
 
-<!-- Bagian body diisioleh div dengan class "card" yang berisi informasi tentang candi borobudur beserta penjelasan tentang candi borobudur. -->
+    <!-- Script JavaScript -->
+    <script src="./script/main.js"></script>
+    <script>
+        // Fungsi untuk menampilkan alert ketika berhasil login
+        function login() {
+            alert("Anda berhasil melakukan login!");
+        }
+    </script>
+</body>
 
 </html>
