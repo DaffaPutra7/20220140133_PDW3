@@ -1,4 +1,4 @@
-/* Gaya untuk elemen body */
+/* Style untuk elemen body */
 
 body {
     display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 
-/* Gaya untuk container konten */
+/* Style untuk container konten */
 
 .container {
     display: flex;
@@ -25,14 +25,14 @@ body {
 }
 
 
-/* Gaya untuk konten */
+/* Style untuk konten */
 
 .content {
     display: flex;
 }
 
 
-/* Gaya untuk kartu */
+/* STyle untuk kartu */
 
 .card {
     width: 300px;
@@ -47,7 +47,7 @@ body {
 }
 
 
-/* Gaya untuk gambar di dalam kartu */
+/* Style untuk gambar di dalam kartu */
 
 .card img {
     width: 100%;
@@ -59,7 +59,7 @@ body {
 }
 
 
-/* Gaya untuk formulir login */
+/* Style untuk formulir login */
 
 .login {
     width: 300px;
@@ -72,7 +72,7 @@ body {
 }
 
 
-/* Gaya untuk teks "Login" */
+/* Style untuk teks "Login" */
 
 .login h1 {
     margin-top: 0;
@@ -81,14 +81,14 @@ body {
 }
 
 
-/* Gaya untuk formulir di dalam login */
+/* Style untuk formulir di dalam login */
 
 .login form {
     margin-bottom: 0;
 }
 
 
-/* Gaya untuk label di dalam formulir */
+/* Style untuk label di dalam formulir */
 
 .login form label {
     display: block;
@@ -96,7 +96,7 @@ body {
 }
 
 
-/* Gaya untuk input di dalam formulir */
+/* Style untuk input di dalam formulir */
 
 .login form input {
     width: calc(100% - 12px);
@@ -107,7 +107,7 @@ body {
 }
 
 
-/* Gaya untuk tombol di dalam formulir */
+/* Style untuk tombol di dalam formulir */
 
 .login form button {
     width: 100%;
@@ -128,7 +128,7 @@ body {
 }
 
 
-/* Gaya untuk elemen waktu */
+/* Style untuk elemen waktu */
 
 .waktu {
     position: absolute;

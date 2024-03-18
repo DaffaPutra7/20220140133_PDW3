@@ -1,4 +1,4 @@
-// Mendapatkan elemen waktu
+// Buat elemen waktu
 const waktu = document.getElementById("waktu");
 
 // Fungsi untuk menampilkan tanggal dan waktu secara real-time
